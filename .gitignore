@@ -1,0 +1,35 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE or editor specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Dependency directories
+lib/
+libs/
+library/
+
+# Distribution directories
+dist/
+build/
+eggs/
+*.egg-info/
+
+# Ignore any local development settings or secrets
+*.env
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
