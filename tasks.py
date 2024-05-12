@@ -4,10 +4,10 @@ from crewai import Task
 class AINewsLetterTasks():
     def fetch_news_task(self, agent):
         return Task(
-            description=f'Fetch top AI news stories from the past 24 hours. The current time is {datetime.now()}.',
+            description=f'Fetch top AI news stories and insurance industry AI updates from the past 2 weeks. The current time is {datetime.now()}.',
             agent=agent,
             async_execution=True,
-            expected_output="""A list of top AI news story titles, URLs, and a brief summary for each story from the past 24 hours. 
+            expected_output="""A list of top AI news story titles, URLs, and a brief summary for each story from the past 2 weeks. 
                 Example Output: 
                 [
                     {  'title': 'AI takes spotlight in Super Bowl commercials', 
@@ -52,7 +52,7 @@ class AINewsLetterTasks():
                 **The Rundown:** AI made a splash in this year\'s Super Bowl commercials...\\n\\n
                 **The details:**...\\n\\n
                 **Why it matters::**...\\n\\n
-                ## Altman seeks TRILLIONS for global AI chip initiative\\n\\n
+                ## Altman seeks TRILLIONS for global AI chip initiative in the insurance industry\\n\\n
                 **The Rundown:** OpenAI CEO Sam Altman is reportedly angling to raise TRILLIONS of dollars...\\n\\n'
                 **The details:**...\\n\\n
                 **Why it matters::**...\\n\\n
