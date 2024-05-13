@@ -6,6 +6,13 @@ CrewAi by default supports the task management process in a sequential way, but 
 ## About
 Demonstrating the power of multi-agent based application, this is a CREWAI python based application that is used to fetch the latest top 5 last 24 hrs AI related most relevant news from the google search api using Serper and generate a Newsletter in a markdown format file.
 
+### CrewAi based app Architecture 
+
+[miro link](https://miro.com/app/board/uXjVKKYwQFc=/)
+
+<img width="1060" alt="image" src="https://github.com/rohan1443/crewAI-newsletter-hierarchical-control-architecture/assets/12879983/7d693d40-ff27-4c3b-bf0b-a5eafa622da5">
+
+
 ## Feature
 - async task execution
 - task delegation and process management execution
